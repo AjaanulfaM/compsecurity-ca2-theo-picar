@@ -18,7 +18,7 @@ public class AesApplication {
         System.out.println("Please choose one of the following (1-3)");
         UtilityClass.menu(menuOptions);
 
-        int choice = scanner.nextInt();
+        int choice = UtilityClass.validateRange(1, 3);
 
         if(choice == 1) {
             encryptFile();
