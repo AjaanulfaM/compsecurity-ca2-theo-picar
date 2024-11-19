@@ -27,6 +27,7 @@ public class UtilityClass {
             }
             else {
                 System.out.println("Please enter a valid int (" +min+ "-" +max+ ")");
+                scanner.next();
             }
         }
 
